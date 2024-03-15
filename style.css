@@ -1,0 +1,100 @@
+.cabecalho{
+    height: 55px;
+    background-color:rgb(233, 237, 241);
+    display: flex;
+    align-items: center;
+    padding: 0 30px;
+    border-bottom: 1px solid hsl(0, 0%, 16%);
+}
+.cabecalho .menu{
+    display: flex;
+    gap: 30px;
+}
+.cabecalho li a{
+    font-size: 15px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.cabecalho .menu li a:hover{
+    border-bottom: 1px solid #282828;
+}
+.opcao {
+    margin-left: 1200px;
+}
+.cabecalho .menu .opcao{
+    display: flex;
+}
+.navegacao{
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 30px;
+    background-color:#fff;
+}
+.navegacao .secao{
+    display: flex;
+    gap: 30px;
+}
+.navegacao li a{
+    font-size: 15px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.navegacao .secao li a:hover{
+    border-bottom: 1px solid #282828;
+}
+.navegacao .secao .irPara {
+    margin-left: 350px;
+}
+.navegacao li img{
+    height: 20px;
+}
+.navegacao .secao .Buscar-carinho{
+margin-left: 250px;
+}
+.navegacao li input{
+    border-radius: 10px;
+    background-color: aliceblue;
+    padding: 5px;
+    border:none;
+    outline: none;
+}
+.introNike{
+    margin-top: 150px;
+    height: 600px;
+    margin-left: 300px;
+}
+.navegacaoPagina a{
+    margin-left: 60px;
+    color: aliceblue;
+    border-radius: 60px;
+    padding: 20px 30px;
+    background-color: black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.navegacaoPagina .opcaoPagina{
+    margin-left: 550px;
+}
+.navegacaoPagina h1{
+    margin-left: 200px;
+    font-size: 40px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.ordemDeFotos{
+    display: flex;
+    height: 400px;
+    margin: 0 250px;
+}
+.ordemDeFotos img{
+    margin-left: 30px;
+}
+.SaoPaulo-nike-run{
+    margin-left: 370px;
+    height: 800px;
+}
+.navegacaoPagina .opcaoPaginas{
+    margin-left: 700px;
+}
+
+
+
+

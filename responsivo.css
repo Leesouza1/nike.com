@@ -1,0 +1,38 @@
+
+@media(max-width: 1700px) {
+    .cabecalho .menu .opcao{
+        margin-left: 1000px;
+    }
+    .fixed .navegacao .secao .irPara{
+        margin-left: 150px;
+    }
+}
+@media (max-width: 1300px) {
+    .cabecalho .menu .opcao{
+        margin-left: 500px;
+    }
+    .fixed .navegacao .secao .irPara{
+        margin-left: 50px;
+    }
+}
+@media (max-width: 900px) {
+    .cabecalho .menu .opcao{
+        margin-left: 200px;
+    }
+    .fixed .navegacao .secao .irPara{
+        margin-left: 50px;
+    }
+}
+
+@media (max-width: 500px) {
+    .fixed .cabecalho .menu{
+        gap: 13px;
+    }
+    .fixed .cabecalho li a{
+        font-size: 12px;
+    }
+    .cabecalho .menu .opcao{
+        margin-left: 0px;
+    }
+    
+}
